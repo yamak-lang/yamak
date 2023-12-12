@@ -3,6 +3,7 @@ package net.namandixit.java.yamak;
 public class Yamak {
 
     public static void main(String[] args) {
-        System.out.println("Welcome to Yamak!");
+        Compiler compiler = new Compiler();
+        compiler.runString("", "23.34 hello bye func lambda 0x1.400p3 0x10.1p0 123.456p-67 #{Commenting #{nested {{{ #} }}} #} #byeeeee 420");
     }
 }
